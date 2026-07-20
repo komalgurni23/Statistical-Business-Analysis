@@ -1,0 +1,124 @@
+=========================================
+STATISTICAL HYPOTHESIS TEST RESULTS
+=========================================
+
+Project: Statistical Business Analysis
+
+Dataset: business_data.csv
+
+-----------------------------------------
+Hypothesis Test 1
+One-Sample T-Test
+-----------------------------------------
+
+Null Hypothesis (H0):
+The average sales are equal to the expected average sales.
+
+Alternative Hypothesis (H1):
+The average sales are significantly different from the expected average sales.
+
+Test Used:
+One-Sample T-Test
+
+Decision Rule:
+If p-value < 0.05, Reject H0
+Else, Fail to Reject H0
+
+-----------------------------------------
+Hypothesis Test 2
+Independent T-Test
+-----------------------------------------
+
+Groups Compared:
+North Region vs South Region
+
+Null Hypothesis (H0):
+There is no significant difference between sales in North and South regions.
+
+Alternative Hypothesis (H1):
+There is a significant difference between sales in North and South regions.
+
+Test Used:
+Independent T-Test
+
+Decision Rule:
+If p-value < 0.05, Reject H0
+Else, Fail to Reject H0
+
+-----------------------------------------
+Hypothesis Test 3
+One-Way ANOVA
+-----------------------------------------
+
+Groups Compared:
+North
+South
+East
+West
+
+Null Hypothesis (H0):
+All regional sales have the same mean.
+
+Alternative Hypothesis (H1):
+At least one region has a different mean.
+
+Test Used:
+One-Way ANOVA
+
+Decision Rule:
+If p-value < 0.05, Reject H0
+Else, Fail to Reject H0
+
+-----------------------------------------
+Pearson Correlation
+-----------------------------------------
+
+Variables:
+Marketing_Spend
+Total_Sales
+
+Null Hypothesis (H0):
+No correlation exists.
+
+Alternative Hypothesis (H1):
+A significant correlation exists.
+
+Interpretation
+
+0.00–0.19 Very Weak
+
+0.20–0.39 Weak
+
+0.40–0.59 Moderate
+
+0.60–0.79 Strong
+
+0.80–1.00 Very Strong
+
+-----------------------------------------
+Regression Analysis
+-----------------------------------------
+
+Dependent Variable:
+Total_Sales
+
+Independent Variable:
+Marketing_Spend
+
+Outputs
+
+Regression Equation
+
+Slope
+
+Intercept
+
+R² Score
+
+Business Interpretation
+
+Higher R² indicates better prediction accuracy.
+
+=========================================
+END OF REPORT
+=========================================
